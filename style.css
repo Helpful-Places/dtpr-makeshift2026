@@ -92,12 +92,12 @@ nav {
 .hero {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .badge-wrap {
     width: 100%;
-    max-width: 700px;
+    max-width: 650px;
 }
 .badge-wrap img {
     width: 100%;
