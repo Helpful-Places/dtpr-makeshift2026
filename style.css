@@ -139,6 +139,7 @@ nav {
 .reg-item { font-size: 0.96rem; line-height: 1.7; }
 .reg-item strong { font-weight: 900; }
 a {
+    color: var(--navy);
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-weight: 800;
     font-size: 1rem;
