@@ -123,7 +123,7 @@ nav {
 .reg-item strong { font-weight: 900; }
 a {
     display: inline-block;
-    
+    background: var(--lime);
     color: var(--navy);
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-weight: 800;
