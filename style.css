@@ -139,17 +139,13 @@ nav {
 .reg-item { font-size: 0.96rem; line-height: 1.7; }
 .reg-item strong { font-weight: 900; }
 a {
-    display: inline-block;
-    background: var(--lime);
     color: var(--navy);
     font-family: 'JetBrains Mono', 'Courier New', monospace;
     font-weight: 800;
-    font-size: 0.78rem;
+    font-size: 1rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 0.3rem 0.75rem;
-    border-radius: 2px;
+    text-decoration-line: underline;
     transition: opacity 0.15s;
 }
 a:hover { opacity: 0.6; }
