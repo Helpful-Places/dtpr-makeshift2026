@@ -349,4 +349,39 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
     .info { grid-template-columns: 1fr; gap: 1.75rem; }
     .theme-block { padding: 3.5rem 1.25rem; }
     .theme-cols { grid-template-columns: 1fr; gap: 1.25rem; }
+
+    /* Schedule: stack time/label above full-width title & description */
+    .schedule { padding: 0 16px 32px; }
+
+    .day-schedule-table,
+    .day-schedule-table tbody,
+    .day-schedule-table tr,
+    .day-schedule-table td {
+        display: block;
+        width: 100%;
+    }
+    .day-schedule-table { table-layout: auto; }
+    .day-schedule-table colgroup { display: none; }
+
+    .day-schedule-table tr {
+        padding: 14px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .day-schedule-table td {
+        padding: 0;
+        border-bottom: none;
+    }
+
+    .day-schedule-table td.day-label {
+        padding: 14px 0 10px;
+        border-bottom: none;
+    }
+
+    .session-time {
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .session-title {
+        font-size: 17px;
+    }
 }
