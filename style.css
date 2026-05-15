@@ -125,11 +125,17 @@ nav {
 .badge-wrap {
     width: 100%;
     max-width: 600px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-weight:800
 }
 .badge-wrap img {
     width: 100%;
     height: auto;
     display: block;
+    margin-bottom:2rem;
 }
 
 /* ── INFO GRID ───────────────────────────── */
