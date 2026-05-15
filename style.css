@@ -233,7 +233,7 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
 /*-----SCHEDULE------------------------------*/
 .schedule{
     padding:0 32px 48px;
-    background-color:#f5f0e8
+    background-color:rgb(255, 251, 246)
 }
 
 .day-schedule-table{
@@ -250,7 +250,7 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
 
 /* Section header rows  */
 .day-label{
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color:#888;
@@ -273,13 +273,13 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
 }
 
 .session-time {
-    font-size:13px;
+    font-size:15px;
     font-weight:500;
     white-space:nowrap;
 }
 
 .session-title{
-    font-size:16px;
+    font-size:18px;
     line-height:1.25;
     margin-bottom:4px;
     font-weight:800;
@@ -287,7 +287,7 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
 }
 
 .session-desc{
-    font-size:13px;
+    font-size:15px;
     line-height:1.5;
     margin-bottom: 6px;
 }
@@ -318,6 +318,57 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
 .label-break {background:#ddd; color:#666}
 .label-plenary {background:#111; color: #fff}
 .label-breakout {background:var(--royal-blue); color:#fff}
+
+.expo-items{
+    display:grid;
+    gap:0;
+    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+    padding:0 2rem;
+    font-family: 'Source Sans', 'Helvetica Neue', Arial, sans-serif;
+    
+}
+
+
+.expo-item{
+    padding:1.5rem;
+    border-right: 0.5px solid #666;
+    border-bottom: 0.5px solid #666;
+    background:rgb(255, 251, 246);
+}
+   
+
+.expo-item:nth-child(odd){
+     border-top:0.5rem solid var(--royal-blue)
+}
+
+.expo-item:nth-child(even){
+    border-top:0.5rem solid var(--lime)
+}
+
+
+.expo-people{
+    font-size:15px;
+    font-weight:400;
+    margin-bottom:0.75rem;
+    height:3rem;;
+    line-height:1.5;
+}
+
+.expo-title{
+    font-size:18px;
+    line-height:1.5;
+    margin-bottom:0.5rem;
+    font-weight:800;
+    text-transform:capitalize;
+}
+
+.expo-desc{
+    font-size:15px;
+    line-height:2;
+    margin-bottom: 6px;
+    line-height:1.5;
+
+}
 
 
 
@@ -383,5 +434,9 @@ hr { border: none; border-top: 1.5px solid #e0e0e0; margin-bottom: 2rem; margin-
     }
     .session-title {
         font-size: 17px;
+    }
+
+    .expo-items{
+        grid-template-columns: 1fr;
     }
 }
